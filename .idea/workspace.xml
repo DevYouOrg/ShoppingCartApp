@@ -1,67 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce238f06-020f-481a-a0d6-c8f88eb43fd4" name="Default Changelist" comment="" />
+    <list default="true" id="ce238f06-020f-481a-a0d6-c8f88eb43fd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZRRcC25tuEejvkXk4A8K6OB4V7" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -74,6 +47,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,5 +65,51 @@
       <updated>1584799996091</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1584809077383">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="370" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1128.712@0.0.1128.712" timestamp="1584809077383" />
+    <state x="282" y="75" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1584809316227">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="282" y="75" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1128.712@0.0.1128.712" timestamp="1584809316227" />
+    <state x="345" y="111" key="FileChooserDialogImpl" timestamp="1584808509515">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="345" y="111" key="FileChooserDialogImpl/0.0.1128.712@0.0.1128.712" timestamp="1584808509515" />
+    <state width="1086" height="174" key="GridCell.Tab.0.bottom" timestamp="1584812747642">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state width="1086" height="174" key="GridCell.Tab.0.bottom/0.0.1128.712@0.0.1128.712" timestamp="1584812747642" />
+    <state width="1086" height="174" key="GridCell.Tab.0.center" timestamp="1584812747641">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state width="1086" height="174" key="GridCell.Tab.0.center/0.0.1128.712@0.0.1128.712" timestamp="1584812747641" />
+    <state width="1086" height="174" key="GridCell.Tab.0.left" timestamp="1584812747641">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state width="1086" height="174" key="GridCell.Tab.0.left/0.0.1128.712@0.0.1128.712" timestamp="1584812747641" />
+    <state width="1086" height="174" key="GridCell.Tab.0.right" timestamp="1584812747642">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state width="1086" height="174" key="GridCell.Tab.0.right/0.0.1128.712@0.0.1128.712" timestamp="1584812747642" />
+    <state x="66" y="0" width="994" height="712" key="SettingsEditor" timestamp="1584809597001">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="66" y="0" width="994" height="712" key="SettingsEditor/0.0.1128.712@0.0.1128.712" timestamp="1584809597001" />
+    <state x="260" y="180" key="com.intellij.ide.util.TipDialog" timestamp="1584808491286">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="260" y="180" key="com.intellij.ide.util.TipDialog/0.0.1128.712@0.0.1128.712" timestamp="1584808491286" />
+    <state x="295" y="112" key="extract.method.dialog" timestamp="1584812387580">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="295" y="112" key="extract.method.dialog/0.0.1128.712@0.0.1128.712" timestamp="1584812387580" />
+    <state x="228" y="35" width="672" height="678" key="search.everywhere.popup" timestamp="1584808972405">
+      <screen x="0" y="0" width="1128" height="712" />
+    </state>
+    <state x="228" y="35" width="672" height="678" key="search.everywhere.popup/0.0.1128.712@0.0.1128.712" timestamp="1584808972405" />
   </component>
 </project>
