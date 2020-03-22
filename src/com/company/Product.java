@@ -2,15 +2,16 @@ package com.company;
 
 public class Product {
     int id;
-    String productName;
-    String productDescription;
-    double productPrice;
+    String name;
+    String description;
+    double price;
+    int quantity;
 
     public Product(int id, String productName, String productDescription, double productPrice ) {
 
         this.id = id;
-        this.productName = productName;
-        this.productDescription = productDescription;
-        this.productPrice = productPrice;
+        this.name = productName;
+        this.description = productDescription;
+        this.price = productPrice;
     }
 }
