@@ -31,10 +31,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -83,30 +84,55 @@
       <screen x="0" y="0" width="1128" height="712" />
     </state>
     <state x="345" y="111" key="FileChooserDialogImpl/0.0.1128.712@0.0.1128.712" timestamp="1584808509515" />
-    <state width="1086" height="144" key="GridCell.Tab.0.bottom" timestamp="1584885645822">
-      <screen x="0" y="0" width="1128" height="712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584898915121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1086" height="144" key="GridCell.Tab.0.bottom/0.0.1128.712@0.0.1128.712" timestamp="1584885645822" />
-    <state width="1086" height="144" key="GridCell.Tab.0.center" timestamp="1584885645821">
-      <screen x="0" y="0" width="1128" height="712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584898915121" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584898915121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1086" height="144" key="GridCell.Tab.0.center/0.0.1128.712@0.0.1128.712" timestamp="1584885645821" />
-    <state width="1086" height="144" key="GridCell.Tab.0.left" timestamp="1584885645821">
-      <screen x="0" y="0" width="1128" height="712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584898915121" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584898915120">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1086" height="144" key="GridCell.Tab.0.left/0.0.1128.712@0.0.1128.712" timestamp="1584885645821" />
-    <state width="1086" height="144" key="GridCell.Tab.0.right" timestamp="1584885645822">
-      <screen x="0" y="0" width="1128" height="712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584898915120" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584898915121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1086" height="144" key="GridCell.Tab.0.right/0.0.1128.712@0.0.1128.712" timestamp="1584885645822" />
-    <state x="66" y="0" width="994" height="712" key="SettingsEditor" timestamp="1584809597001">
-      <screen x="0" y="0" width="1128" height="712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584898915121" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584897479541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897479541" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584897479541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584897479541" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584897479541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584897479541" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584897479541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584897479541" />
+    <state x="90" y="0" width="994" height="712" key="SettingsEditor" timestamp="1584895161876">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="66" y="0" width="994" height="712" key="SettingsEditor/0.0.1128.712@0.0.1128.712" timestamp="1584809597001" />
+    <state x="90" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584895161876" />
     <state x="260" y="180" key="com.intellij.ide.util.TipDialog" timestamp="1584808491286">
       <screen x="0" y="0" width="1128" height="712" />
     </state>
     <state x="260" y="180" key="com.intellij.ide.util.TipDialog/0.0.1128.712@0.0.1128.712" timestamp="1584808491286" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584898947913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584898947913" />
     <state x="295" y="112" key="extract.method.dialog" timestamp="1584886327035">
       <screen x="0" y="0" width="1128" height="712" />
     </state>
@@ -115,5 +141,21 @@
       <screen x="0" y="0" width="1128" height="712" />
     </state>
     <state x="231" y="38" width="672" height="678" key="search.everywhere.popup/0.0.1128.712@0.0.1128.712" timestamp="1584882926095" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
