@@ -21,11 +21,13 @@ public class Main {
 
         System.out.println("Welcome to the store front. Here is a list of our products.");
 
+        System.out.println();
+
         for (Product product : productsList) {
             System.out.printf("Item Number: %s%n", product.id);
-            System.out.printf("Item Name: %s%n", product.productName);
-            System.out.printf("Item Description: %s%n", product.productDescription);
-            System.out.printf("Item Price: %.2f%n", product.productPrice);
+            System.out.printf("Item Name: %s%n", product.name);
+            System.out.printf("Item Description: %s%n", product.description);
+            System.out.printf("Item Price: %.2f%n", product.price);
             System.out.println("");
         }
 
@@ -36,27 +38,28 @@ public class Main {
 
             int userItemNumberSelection = scanner.nextInt();
 
-
+//TODO Make it so that the item added to cart is more specific
             switch (userItemNumberSelection) {
                 case 1:
-                    shoppingCart.add(item1);
-                    System.out.println("Item has been added to your cart.");
+                    GetQuantity(shoppingCart, item1, scanner);
+
+                    System.out.printf("%s has been added to your cart.%n", item1.name);
                     break;
                 case 2:
-                    shoppingCart.add(item2);
-                    System.out.println("Item has been added to your cart.");
+                    GetQuantity(shoppingCart, item2, scanner);
+                    System.out.printf("%s has been added to your cart.%n", item2.name);
                     break;
                 case 3:
-                    shoppingCart.add(item3);
-                    System.out.println("Item has been added to your cart.");
+                    GetQuantity(shoppingCart, item3, scanner);
+                    System.out.printf("%s has been added to your cart.%n", item3.name);
                     break;
                 case 4:
-                    shoppingCart.add(item4);
-                    System.out.println("Item has been added to your cart.");
+                    GetQuantity(shoppingCart, item4, scanner);
+                    System.out.printf("%s has been added to your cart.%n", item4.name);
                     break;
                 case 5:
-                    shoppingCart.add(item5);
-                    System.out.println("Item has been added to your cart.");
+                    GetQuantity(shoppingCart, item5, scanner);
+                    System.out.printf("%s has been added to your cart.%n", item5.name);
                     break;
                 default:
                     System.out.println("That is not a correct entry.");
@@ -79,22 +82,34 @@ public class Main {
 
     }
 
+
+
+    //Methods
     private static String CartTotal(ArrayList<Product> shoppingCart) {
         System.out.println("These are the current items in your cart.");
 
         for (Product shoppingCartItem : shoppingCart
         ) {
-            System.out.printf("Item: %s and it costs %.2f%n", shoppingCartItem.productName, shoppingCartItem.productPrice);
+            System.out.printf("Item: %s and it costs %.2f%n", shoppingCartItem.name, shoppingCartItem.price);
         }
 
 
         double totalCost = 0;
         for (Product item : shoppingCart) {
-            totalCost += item.productPrice;
+            totalCost += item.price;
         }
 // Using string format to denote a float number to two decimal spaces
         return String.format(" total is %.2f%n", totalCost);
 
+    }
+
+    private static void GetQuantity(ArrayList<Product> shoppingCart, Product product, Scanner scanner) {
+        System.out.printf("How many of item %s would you like to add to your shopping cart?%n", product.name);
+        int quantity = scanner.nextInt();
+        product.quantity = quantity;
+        for (int i = 0; i < quantity; i++) {
+            shoppingCart.add(product);
+        }
     }
 
 
