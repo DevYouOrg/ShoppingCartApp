@@ -10,11 +10,18 @@ public class Main {
         ArrayList<Product> shoppingCart = new ArrayList<>();
 
         //Create 5 items
-        Product item1 = new Product(1, "shoes", "Something you wear", 25.00);
+        Product item1 = new Product(1, "pair of shoes", "Something you wear", 25.00);
         Product item2 = new Product(2, "jacket", "Something you wear", 45.00);
         Product item3 = new Product(3, "shirt", "Something you wear", 30.00);
-        Product item4 = new Product(4, "pants", "Something you wear", 40.00);
-        Product item5 = new Product(5, "socks", "Something you wear", 5.00);
+        Product item4 = new Product(4, "pair of pants", "Something you wear", 40.00);
+        Product item5 = new Product(5, "pair of socks", "Something you wear", 5.00);
+
+        //add quantity to inventory
+        item1.quantity = 50;
+        item2.quantity = 50;
+        item3.quantity = 50;
+        item4.quantity = 50;
+        item5.quantity = 50;
 
         Product[] productsList = {item1, item2, item3, item4, item5};
 
@@ -41,25 +48,25 @@ public class Main {
 //TODO Make it so that the item added to cart is more specific
             switch (userItemNumberSelection) {
                 case 1:
-                    GetQuantity(shoppingCart, item1, scanner);
+                    int quantity1 = GetQuantity(shoppingCart, item1, scanner);
 
-                    System.out.printf("%s has been added to your cart.%n", item1.name);
+                    System.out.printf("%2$s %s has been added to your cart.%n", item1.name, quantity1);
                     break;
                 case 2:
-                    GetQuantity(shoppingCart, item2, scanner);
-                    System.out.printf("%s has been added to your cart.%n", item2.name);
+                    int quantity2 = GetQuantity(shoppingCart, item2, scanner);
+                    System.out.printf("%2$s %s has been added to your cart.%n", item2.name, quantity2);
                     break;
                 case 3:
-                    GetQuantity(shoppingCart, item3, scanner);
-                    System.out.printf("%s has been added to your cart.%n", item3.name);
+                    int quantity3 = GetQuantity(shoppingCart, item3, scanner);
+                    System.out.printf("%2$s %s has been added to your cart.%n", item3.name, quantity3);
                     break;
                 case 4:
-                    GetQuantity(shoppingCart, item4, scanner);
-                    System.out.printf("%s has been added to your cart.%n", item4.name);
+                    int quantity4 = GetQuantity(shoppingCart, item4, scanner);
+                    System.out.printf("%2$s %s has been added to your cart.%n", item4.name, quantity4);
                     break;
                 case 5:
-                    GetQuantity(shoppingCart, item5, scanner);
-                    System.out.printf("%s has been added to your cart.%n", item5.name);
+                    int quantity5 = GetQuantity(shoppingCart, item5, scanner);
+                    System.out.printf("%2$s %s has been added to your cart.%n", item5.name, quantity5);
                     break;
                 default:
                     System.out.println("That is not a correct entry.");
@@ -103,13 +110,14 @@ public class Main {
 
     }
 
-    private static void GetQuantity(ArrayList<Product> shoppingCart, Product product, Scanner scanner) {
+    private static int GetQuantity(ArrayList<Product> shoppingCart, Product product, Scanner scanner) {
         System.out.printf("How many of item %s would you like to add to your shopping cart?%n", product.name);
         int quantity = scanner.nextInt();
         product.quantity = quantity;
         for (int i = 0; i < quantity; i++) {
             shoppingCart.add(product);
         }
+        return quantity;
     }
 
 
